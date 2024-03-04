@@ -1,0 +1,185 @@
+section {
+  .section_texto {
+    font-family: $font_family;
+  }
+
+  & .section_boton {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: #592566;
+    border: none;
+    font-family: $font_family;
+    color: white;
+    border-radius: 5px;
+  }
+
+  & .padre {
+    margin-top: 40px;
+    position: relative;
+
+    & .barra {
+      background-color: #270c29;
+      height: 20px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+
+      div {
+        display: inline-flex;
+      }
+
+      &_boton1 {
+        border-radius: 50%;
+        background-color: #ed6b60;
+        height: 8px;
+        width: 8px;
+        margin-left: 5px;
+      }
+      &_boton2 {
+        border-radius: 50%;
+        background-color: #f6c051;
+        height: 8px;
+        width: 8px;
+        margin-left: 5px;
+      }
+      &_boton3 {
+        border-radius: 50%;
+        background-color: #63c655;
+        height: 8px;
+        width: 8px;
+        margin-left: 5px;
+      }
+    }
+
+    & .panel {
+      height: 150px;
+      display: flex;
+
+      &_Izq {
+        width: 35%;
+        height: 100%;
+        background-color: #441b49;
+        border-bottom-left-radius: 10px;
+        padding: 20px 15px;
+
+        & .canales {
+          display: flex;
+          justify-content: space-between;
+          padding: 5px;
+          margin-bottom: 3px;
+
+          & p {
+            font-family: $font_family;
+            color: #d8cfd9;
+            font-size: 12px;
+
+            & .fa-solid {
+              color: #d8cfd9;
+            }
+          }
+        }
+
+        & .magico {
+          font-family: $font_family;
+          color: white;
+          background-color: #2d639e;
+          font-size: 12px;
+          padding: 2px;
+          display: flex;
+          width: 100px;
+        }
+      }
+
+      &_Der {
+        width: 65%;
+        height: 100%;
+        background-color: white;
+        border-bottom-right-radius: 10px;
+        font-family: $font_family;
+
+        & .bold {
+          font-weight: bold;
+          padding: 10px;
+          font-size: 15px;
+        }
+
+        & .name1 {
+          @include textFontPosition();
+        }
+
+        & .name2 {
+          @include textFontPosition();
+        }
+
+        & .sent1 {
+          @include textSentence();
+        }
+
+        & .sent2 {
+          @include textSentence();
+        }
+
+        & .emojis {
+          z-index: 500;
+          position: absolute;
+
+          & .confeti {
+            display: flex;
+            width: 60px;
+            height: 40px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            gap: 12px;
+            box-shadow: 1px 1px 1px black;
+            position: absolute;
+            left: -50px;
+            top: -20px;
+          }
+
+          & .ojos {
+            display: flex;
+            width: 60px;
+            height: 40px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            gap: 12px;
+            box-shadow: 1px 1px 1px black;
+            position: absolute;
+            left: -80px;
+            top: -10px;
+          }
+
+          & .pulgar {
+            display: flex;
+            width: 60px;
+            height: 40px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            gap: 12px;
+            box-shadow: 1px 1px 1px black;
+            position: absolute;
+            left: -70px;
+            top: -60px;
+          }
+
+          & .bombilla {
+            display: flex;
+            width: 60px;
+            height: 40px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            gap: 12px;
+            box-shadow: 1px 1px 1px black;
+            position: absolute;
+            left: -50px;
+            top: -10px;
+          }
+        }
+      }
+    }
+  }
+}

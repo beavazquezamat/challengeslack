@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px 15px;
+  background-color: #f5efe9;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+.header_menu-logo {
+  width: 100px;
+}
+.header_menu-burger {
+  height: 20px;
+}
+
+section .section_texto {
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+section .section_boton {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: #592566;
+  border: none;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  color: white;
+  border-radius: 5px;
+}
+section .padre {
+  margin-top: 40px;
+  position: relative;
+}
+section .padre .barra {
+  background-color: #270c29;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+section .padre .barra div {
+  display: inline-flex;
+}
+section .padre .barra_boton1 {
+  border-radius: 50%;
+  background-color: #ed6b60;
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+}
+section .padre .barra_boton2 {
+  border-radius: 50%;
+  background-color: #f6c051;
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+}
+section .padre .barra_boton3 {
+  border-radius: 50%;
+  background-color: #63c655;
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+}
+section .padre .panel {
+  height: 150px;
+  display: flex;
+}
+section .padre .panel_Izq {
+  width: 35%;
+  height: 100%;
+  background-color: #441b49;
+  border-bottom-left-radius: 10px;
+  padding: 20px 15px;
+}
+section .padre .panel_Izq .canales {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+section .padre .panel_Izq .canales p {
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  color: #d8cfd9;
+  font-size: 12px;
+}
+section .padre .panel_Izq .canales p .fa-solid {
+  color: #d8cfd9;
+}
+section .padre .panel_Izq .magico {
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  color: white;
+  background-color: #2d639e;
+  font-size: 12px;
+  padding: 2px;
+  display: flex;
+  width: 100px;
+}
+section .padre .panel_Der {
+  width: 65%;
+  height: 100%;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+section .padre .panel_Der .bold {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+}
+section .padre .panel_Der .name1 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+section .padre .panel_Der .name2 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+section .padre .panel_Der .sent1 {
+  font-size: 11px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-top: 2px;
+}
+section .padre .panel_Der .sent2 {
+  font-size: 11px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-top: 2px;
+}
+section .padre .panel_Der .emojis {
+  z-index: 500;
+  position: absolute;
+}
+section .padre .panel_Der .emojis .confeti {
+  display: flex;
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  gap: 12px;
+  box-shadow: 1px 1px 1px black;
+  position: absolute;
+  left: -50px;
+  top: -20px;
+}
+section .padre .panel_Der .emojis .ojos {
+  display: flex;
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  gap: 12px;
+  box-shadow: 1px 1px 1px black;
+  position: absolute;
+  left: -80px;
+  top: -10px;
+}
+section .padre .panel_Der .emojis .pulgar {
+  display: flex;
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  gap: 12px;
+  box-shadow: 1px 1px 1px black;
+  position: absolute;
+  left: -70px;
+  top: -60px;
+}
+section .padre .panel_Der .emojis .bombilla {
+  display: flex;
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  gap: 12px;
+  box-shadow: 1px 1px 1px black;
+  position: absolute;
+  left: -50px;
+  top: -10px;
+}
+
+.footer .logoImage1 {
+  display: flex;
+  height: 15vh;
+}
+.footer .logoImage2 {
+  display: flex;
+  height: 15vh;
+}
+.footer .logoImage3 {
+  display: flex;
+  height: 15vh;
+}
+.footer .logoImage4 {
+  display: flex;
+  height: 15vh;
+}
+.footer .logoImage5 {
+  display: flex;
+  height: 15vh;
+}
+.footer .logoImage6 {
+  display: flex;
+  height: 15vh;
+}/*# sourceMappingURL=main.css.map */
