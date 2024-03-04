@@ -153,9 +153,6 @@ section .padre .panel_Der .emojis .confeti {
   border-radius: 30px;
   gap: 12px;
   box-shadow: 1px 1px 1px black;
-  position: absolute;
-  left: -50px;
-  top: -20px;
 }
 section .padre .panel_Der .emojis .ojos {
   display: flex;
@@ -166,9 +163,6 @@ section .padre .panel_Der .emojis .ojos {
   border-radius: 30px;
   gap: 12px;
   box-shadow: 1px 1px 1px black;
-  position: absolute;
-  left: -80px;
-  top: -10px;
 }
 section .padre .panel_Der .emojis .pulgar {
   display: flex;
@@ -179,9 +173,6 @@ section .padre .panel_Der .emojis .pulgar {
   border-radius: 30px;
   gap: 12px;
   box-shadow: 1px 1px 1px black;
-  position: absolute;
-  left: -70px;
-  top: -60px;
 }
 section .padre .panel_Der .emojis .bombilla {
   display: flex;
@@ -192,9 +183,6 @@ section .padre .panel_Der .emojis .bombilla {
   border-radius: 30px;
   gap: 12px;
   box-shadow: 1px 1px 1px black;
-  position: absolute;
-  left: -50px;
-  top: -10px;
 }
 
 .footer .logoImage1 {
